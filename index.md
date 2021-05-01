@@ -5,7 +5,7 @@
 ### Mobile Development
 
 [Draw and Play Game](/sample_page)\
-<img src="images/dap.png?raw=true" alt="drawing" width="200"/>
+<img src="images/dap.png?raw=true" alt="drawing" width="400"/>
 
 ---
 [Online Kalimba](https://github.com/xns1997/ART_352)\
