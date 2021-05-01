@@ -4,8 +4,8 @@
 
 ### Mobile Development
 
-[Project 1 Title](/sample_page)\
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Draw and Play Game](/sample_page)\
+<img src="images/dap.png?raw=true" alt="drawing" width="200"/>
 
 ---
 [Online Kalimba](https://github.com/xns1997/ART_352)\
