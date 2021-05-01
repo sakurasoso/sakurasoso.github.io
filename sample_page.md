@@ -42,16 +42,28 @@ if let data = self.motion.accelerometerData {
                 self.accmy = data.acceleration.y
 ```
 
-### 4. demo
+### 4. Line detecion
+
+Dectect line segments
+```cpp
+HoughLinesP(cannyImage, lines, 1, CV_PI/180, 100, 75, 30);
+```
+
+Dectect circles
+```cpp
+HoughCircles(blurImage, circles, HOUGH_GRADIENT, 1, image.cols/8, 100, 100, 0, 0);
+```
+Use Hough transform to detect straight lines and circles ⭕️ in the image, and calculate the angle between the straight lines to determine whether they are crossing ❌.
+### 5. demo
 \
 <img src="images/dap_demo.gif?raw=true" alt="drawing" width="400"/>
 
-### 5. Other Contributors
-Kyle Rosenau 
-Matthew Alonso
-Vihn Nguyen
+### 6. Other Contributors
+Kyle Rosenau \
+Matthew Alonso \
+Vihn Nguyen \
 
-### 6. Special Thanks
+### 7. Special Thanks
 Scott Fairbanks
 
 For more details see [Our project](https://github.com/sakurasoso/Draw-and-Play-Video-Game?organization=sakurasoso&organization=sakurasoso).
