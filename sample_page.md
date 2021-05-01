@@ -9,7 +9,7 @@ The gravity control of the game used the CoreMotion suite time in IOS.
 The core part of performing image recognition is implemented using Opencv.
 
 
-### 2.Game initialization
+### 2. Game initialization
 It is easy to add game objects and physical effects through the powerful Sprite Kit and Gameplay Kit.
 
 A snippet of game to add a X mark object to game.
@@ -40,6 +40,8 @@ By turning on the accelerometer of the iPhone, we can connect the game world wit
 if let data = self.motion.accelerometerData {
                 self.accmx = data.acceleration.x
                 self.accmy = data.acceleration.y
+                ...
+}
 ```
 
 ### 4. Line detecion
